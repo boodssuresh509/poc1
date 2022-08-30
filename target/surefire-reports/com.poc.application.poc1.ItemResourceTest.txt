@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.poc.application.poc1.ItemResourceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.877 s <<< FAILURE! - in com.poc.application.poc1.ItemResourceTest
+testUpdate  Time elapsed: 0.35 s  <<< FAILURE!
+java.lang.AssertionError: Should return status 204 expected:<204> but was:<201>
+	at com.poc.application.poc1.ItemResourceTest.testUpdate(ItemResourceTest.java:49)
+
